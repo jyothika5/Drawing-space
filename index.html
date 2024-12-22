@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="paint.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Drawing</title>
 </head>
 <body>
-    <script src="pain.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
     <center>
         <h1>If you dream it, Draw it!!</h1>
-    <div class="box">
-       <div class="bbox">
-         <h2>Draw here</h2>
-       </div>
+        <div class="box">
+            <div class="bbox">
+                <h2>Draw here</h2>
+            </div>
+        </div>   
 
-     </div>   
-    
-    <div class="buttons">
-        <button id="pen" class="butt"><i class="fa-solid fa-pen fa-flip"></i></button>
-        <button id="bucket" class="butt"><i class="fa-solid fa-fill fa-flip"></i></i></button>
-        <button id="eraser" class="butt"><i class="fa-solid fa-eraser fa-flip"></i></button>
-    
-</div>
+        <div class="buttons">
+            <button id="pencil" class="butt"><i class="fa-solid fa-pencil fa-flip"></i></button>
+            <button id="bucket" class="butt"><i class="fa-solid fa-fill fa-flip"></i></button>
+            <button id="eraser" class="butt"><i class="fa-solid fa-eraser fa-flip"></i></button>
+            <button id="del" class="butt"><i class="fa-solid fa-trash fa-flip"></i></button>
+            <button id="palatte" class="butt">
+                <div class="color-picker">
+                    <input type="color" id="color-picker">
+                </div>
+            </button>
+            <input type="range" id="thickness-slider" min="1" max="30" value="2" class="thickness-slider">
+        </div>
     </center>
+
+    <script src="pain.js"></script>
 </body>
 </html>
