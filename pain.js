@@ -3,6 +3,7 @@ let currentTool = 'pencil';
 let currentColor = '#000000';
 let currentThickness = 2;
 
+
 function setup() {
     const canvasWidth = Math.min(710, windowWidth * 0.9);
     canvas = createCanvas(canvasWidth, 400);
