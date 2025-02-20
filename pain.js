@@ -9,7 +9,6 @@ function setup() {
     canvas.parent('bbox');
     background(255);
 }
-
 function draw() {
     if (mouseIsPressed) {
         strokeWeight(currentThickness);
