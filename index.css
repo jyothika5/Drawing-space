@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(to bottom left, #9a4094, #b135a2, #4a194d);
     background-attachment: fixed;
